@@ -23,6 +23,7 @@ public class PdfDocument implements Readable, Printable {
 
     @Override
     public void print() {
+
         System.out.println("[PdfDocument] Printing PDF: " + filename);
     }
 }

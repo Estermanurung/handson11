@@ -1,6 +1,15 @@
 package latihan4_isp;
 
-// import latihan4_isp.good.*; // Uncomment setelah refactoring selesai
+import latihan4_isp.good.Readable;
+import latihan4_isp.good.Printable;
+import latihan4_isp.good.PdfDocument;
+import latihan4_isp.good.WordDocument;
+import latihan4_isp.good.SpreadsheetDocument;
+import latihan4_isp.good.ImageDocument;
+
+import java.util.List;
+import java.util.ArrayList;
+
 
 public class ISPPractice {
     public static void main(String[] args) {
